@@ -5,17 +5,17 @@ The project aims to create blockchain-based front ends to facilitate some servic
 # Setup
 
 ## Build
-Take an update of the repository and run command *npm install*
-In the console, run command *npm start*
-This should perform the transpiling and stage the project in dist folder.
-Open in browser http://localhost:8080
+Take an update of the repository and run command *npm install*. 
+In the console, run command *npm start*. 
+This should perform the transpiling and stage the project in dist folder.  
+Open in browser http://localhost:8080. 
 
 
 ## Dependencies
-a. npm and nodejs LTS 10.13.0
-b. react and react-dom node modules
-c. React Developer Tools browser extension
-d. babel and webpack
+a. npm and nodejs LTS 10.13.0. 
+b. react and react-dom node modules. 
+c. React Developer Tools browser extension. 
+d. babel and webpack. 
 
 
 # Blockchain Setup
