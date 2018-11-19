@@ -12,10 +12,10 @@ Open in browser http://localhost:8080.
 
 
 ## Dependencies
-a. npm and nodejs LTS 10.13.0. 
-b. react and react-dom node modules. 
-c. React Developer Tools browser extension. 
-d. babel and webpack. 
+1. npm and nodejs LTS 10.13.0. 
+2. react and react-dom node modules. 
+3. React Developer Tools browser extension. 
+4. babel and webpack. 
 
 
 # Blockchain Setup
@@ -27,13 +27,13 @@ All application features will be provided by the dapp which will be exposed via 
 
 # Features
 Phase 1:
-a. User registration to become a stakeholder
-b. Store all purchases of 3dprinter components as transactions in blockchain
-c. Funds status. Reflect the total funds raised, leftover, and amount utilized
-d. Admin only role for critical features of the application
+1. User registration to become a stakeholder
+2. Store all purchases of 3dprinter components as transactions in blockchain
+3. Funds status. Reflect the total funds raised, leftover, and amount utilized
+4. Admin only role for critical features of the application
 
 Phase 2:
-a. Print Scheduling: Printing as a service from the front end
-b. Print Management: Set a cap on how much a stakeholder can print based on polymer usage (may be in grams)
-c. Web-enabled print (upload 3dmodel file from front end and trigger print).
+1. Print Scheduling: Printing as a service from the front end
+2. Print Management: Set a cap on how much a stakeholder can print based on polymer usage (may be in grams)
+3. Web-enabled print (upload 3dmodel file from front end and trigger print).
 
