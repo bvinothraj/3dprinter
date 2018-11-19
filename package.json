@@ -1,0 +1,40 @@
+{
+  "name": "3dprinter",
+  "version": "1.0.0",
+  "description": "The project aims to create blockchain-based front ends to facilitate some services for the 3dprinter.",
+  "main": "src/app/index.js",
+  "scripts": {
+    "start": "npm run build",
+    "build": "webpack -d && cp src/index.html dist/index.html && webpack-dev-server --mode development --content-base src/ --inline",
+    "build:prod": "webpack -p && cp src/index.html dist/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bvinothraj/3dprinter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bvinothraj/3dprinter/issues"
+  },
+  "homepage": "https://github.com/bvinothraj/3dprinter#readme",
+  "dependencies": {
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
+  },
+  "babel": {
+    "presets": [
+    "@babel/preset-env",
+    "@babel/preset-react"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  }
+}
