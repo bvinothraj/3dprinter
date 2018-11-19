@@ -1,0 +1,19 @@
+section.header {
+	height: 120px;
+	width: 100%;
+	color: #e4e4e4;
+	background: #0d386e;
+	box-shadow: 1px 2px 4px rgba(0, 0, 0, .4);
+}
+
+
+section.header h1 {
+	text-align: center;
+	margin: 0 auto;
+	padding: 40px;
+}
+
+body {
+	background-color: #e4e4e4;
+	color: black;
+}
