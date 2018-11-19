@@ -2,16 +2,21 @@
 
 The project aims to create blockchain-based front ends to facilitate some services for the 3dprinter.
 
-# Dependencies
-
-a. npm and nodejs LTS 10.13.0
-b. react and react-dom node modules
-c. babel and webpack
+# Setup
 
 ## Build
-In the console, run the command: npm start
+Take an update of the repository and run command *npm install*
+In the console, run command *npm start*
 This should perform the transpiling and stage the project in dist folder.
 Open in browser http://localhost:8080
+
+
+## Dependencies
+a. npm and nodejs LTS 10.13.0
+b. react and react-dom node modules
+c. React Developer Tools browser extension
+d. babel and webpack
+
 
 # Blockchain Setup
 Ethereum blockchain platform will be setup in a local environment (private) and the blockchain would use POA as consensus engine. It is planned that all stakeholders of the 3dprinter projects be the sealers for the blockchain network.
