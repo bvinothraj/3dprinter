@@ -16,6 +16,7 @@ section.header h1 {
 body {
 	background-color: #e4e4e4;
 	color: #000000;
+	font-size: 12px;
 }
 
 .bigtext {
@@ -23,4 +24,34 @@ body {
 	margin: 0 auto;
 	margin-top: 100px;
 	text-align: center;
+}
+
+.centercontent {
+	display: block;
+	font-size: 16px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.tabbar {
+	text-align: center;
+}
+
+.tab {
+	display: inline-block;
+	cursor: pointer;
+	width: 120px;
+	height: 40px;
+	line-height:40px;
+	margin-left: 50px;
+	margin-right: 50px;
+	color: #ffffff;
+	font-size: 14px;
+	background-color: #888888;
+	border-radius: 0px 0px 5px 5px;
+	box-shadow: 1px 2px 4px rgba(0, 0, 0, .4);
+}
+
+.activetab {
+	background-color: #6e630d;
 }
