@@ -37,3 +37,6 @@ Phase 2:
 2. Print Management: Set a cap on how much a stakeholder can print based on polymer usage (may be in grams)
 3. Web-enabled print (upload 3dmodel file from front end and trigger print).
 
+
+# Misc
+1. Using triadic color scheme https://www.sessions.edu/color-calculator/ with #0d386e 
