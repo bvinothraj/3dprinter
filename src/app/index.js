@@ -6,14 +6,12 @@ import ReactDOM from 'react-dom';
 import Header from './components/layout/header';
 import TabBar from './components/layout/tabbar';
 import Content from './components/layout/content';
+import { TABS_ARR } from './constants'
 
 export default class App extends React.Component {
 	constructor(props) {
 		super(props);
-		this.state = { tabs : [ { name:"Members"},
-								{ name:"Validators"},
-								{ name:"Fund Status"} 
-							],
+		this.state = { tabs : TABS_ARR,
 						activeTab : 0,
 					};
 	}
